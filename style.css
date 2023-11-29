@@ -143,3 +143,34 @@ nav {
     margin-bottom: 1rem;
     
 }
+@keyframes leftmove {
+    0% {left: -40%; opacity: 0;}
+    50% {left: -20%; opacity: 0.5;}
+    100% {left:0%;}
+}
+@keyframes rightmove {
+    0% {right: -40%; opacity: 0;}
+    50% {right: -20%; opacity: 0.5;}
+    100% {right:0%;}
+}
+.test {
+    position:relative;
+      animation: rightmove 1s linear;
+}
+.test1 {
+    position:relative;
+      animation: leftmove 1s linear;
+}
+.test3 {
+    position:relative;
+      animation: rightmove 1s linear;
+}
+@keyframes bottommove {
+    0% {bottom: -40%; opacity: 0;}
+    50% {bottom: -20%; opacity: 0.5;}
+    100% {bottom:0%;}
+}
+.test2 {
+    position:relative;
+      animation: bottommove 1s linear;
+}
